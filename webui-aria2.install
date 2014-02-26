@@ -1,5 +1,7 @@
 post_install() {
 	ln -s /usr/share/webapps/webui-aria2 /srv/http/
+	echo "Now the webui-aria2 was installed in your system,"
+	echo "you may open the web application by URL http://localhost/webui-aria2 in your browser"
 }
 
 post_remove() {
